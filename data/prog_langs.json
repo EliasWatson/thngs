@@ -1,0 +1,10 @@
+{
+  "things": {
+    "python": {
+      "name": "Python",
+      "info": {
+        "exec_method": "interpreted"
+      }
+    }
+  }
+}
