@@ -1,0 +1,36 @@
+#page {
+    max-width: 70em;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: sans-serif;
+}
+
+#header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.5rem;
+
+    font-size: 2rem;
+}
+
+#logo {
+    font-weight: bold;
+
+    user-select: none;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+#logo:hover {
+    opacity: 0.6;
+}
+
+#category {
+    font-weight: lighter;
+}
