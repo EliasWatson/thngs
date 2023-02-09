@@ -43,7 +43,7 @@
 }
 
 .thng {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
 
     border: 2px solid rgba(0, 0, 0, 0.2);
     border-radius: 0.25rem;
@@ -55,5 +55,35 @@
 }
 
 .thng--name {
+    padding-left: 0.25rem;
+
+    font-weight: 500;
     font-size: 1.5rem;
+}
+
+.thng--info-list {
+    padding-left: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.thng--info {
+    padding: 0.5rem 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    background-color: #fff;
+    border-radius: 0.25rem;
+}
+
+.thng--info:nth-of-type(odd) {
+    background-color: #eee;
+}
+
+.thng--info__name {
+    font-size: 1.25rem;
 }
