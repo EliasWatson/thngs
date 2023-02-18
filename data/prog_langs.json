@@ -3,15 +3,85 @@
   "things": {
     "ABS": {
       "name": "ABS",
-      "info": {}
+      "info": {
+        "file_extension": ".abs",
+        "language_type": "scripting",
+        "website": "https://www.abs-lang.org",
+        "influenced_by": [
+          "Ruby",
+          "Python",
+          "JavaScript",
+          "Bash"
+        ]
+      }
     },
     "Ada": {
       "name": "Ada",
-      "info": {}
+      "info": {
+        "file_extension": [
+          ".adb",
+          ".ads"
+        ],
+        "origin_year": 1980,
+        "website": "https://www.adaic.org",
+        "type_system": [
+          "static",
+          "strong",
+          "safe",
+          "nominal"
+        ],
+        "paradigm": [
+          "multi",
+          "structured",
+          "imperative",
+          "object_oriented",
+          "aspect-oriented",
+          "concurrent",
+          "array",
+          "distributed",
+          "generic",
+          "procedural",
+          "meta"
+        ],
+        "influenced_by": [
+          "ALGOL",
+          "Pascal",
+          "Simula",
+          "C++",
+          "Smalltalk",
+          "Modula-2",
+          "Java",
+          "Eiffel"
+        ]
+      }
     },
     "Agda": {
       "name": "Agda",
-      "info": {}
+      "info": {
+        "file_extension": [
+          ".agda",
+          ".lagda",
+          ".lagda.md",
+          ".lagda.rst",
+          ".lagda.tex"
+        ],
+        "origin_year": 1999,
+        "website": "https://wiki.portal.chalmers.se/agda/pmwiki.php",
+        "type_system": [
+          "strong",
+          "static",
+          "dependent",
+          "nominal",
+          "manifest",
+          "inferred"
+        ],
+        "paradigm": "functional",
+        "influenced_by": [
+          "Coq",
+          "Epigram",
+          "Haskell"
+        ]
+      }
     },
     "ALGOL": {
       "name": "ALGOL",
@@ -44,40 +114,116 @@
     },
     "AssemblyScript": {
       "name": "AssemblyScript",
-      "info": {}
+      "info": {
+        "file_extension": ".ts",
+        "website": "https://www.assemblyscript.org",
+        "compiles_to": "WebAssembly"
+      }
     },
     "ATS": {
       "name": "ATS",
-      "info": {}
+      "info": {
+        "file_extension": [
+          ".sats",
+          ".dats",
+          ".hats"
+        ],
+        "origin_year": 2020,
+        "website": "https://www.cs.bu.edu/~hwxi/atslangweb/",
+        "type_system": "static",
+        "paradigm": [
+          "multi",
+          "functional",
+          "imperative"
+        ]
+      }
     },
     "Ballerina": {
       "name": "Ballerina",
-      "info": {}
+      "info": {
+        "file_extension": ".bal",
+        "website": "https://ballerina.io"
+      }
     },
     "Beef": {
       "name": "Beef",
-      "info": {}
+      "info": {
+        "file_extension": ".bf",
+        "language_type": "game_development",
+        "website": "https://www.beeflang.org"
+      }
     },
     "Bloom": {
       "name": "Bloom",
-      "info": {}
+      "info": {
+        "file_extension": ".rb",
+        "website": "http://bloom-lang.net"
+      }
     },
     "Bolin": {
       "name": "Bolin",
-      "info": {}
+      "info": {
+        "website": "https://bolinlang.com"
+      }
     },
     "C++": {
       "name": "C++",
-      "info": {}
+      "info": {
+        "file_extension": [
+          ".C",
+          ".cc",
+          ".cpp",
+          ".cxx",
+          ".c++",
+          ".h",
+          ".H",
+          ".hh",
+          ".hpp",
+          ".hxx",
+          ".h++"
+        ],
+        "origin_year": 1985,
+        "website": "https://isocpp.org",
+        "expression_style": "infix",
+        "type_system": [
+          "static",
+          "strong",
+          "nominative",
+          "partially_inferred"
+        ],
+        "paradigm": [
+          "multi",
+          "procedural",
+          "imperative",
+          "functional",
+          "object_oriented",
+          "generic",
+          "modular"
+        ],
+        "influenced_by": [
+          "Ada",
+          "ALGOL",
+          "BCPL",
+          "C",
+          "CLU",
+          "F#",
+          "ML",
+          "Mesa",
+          "Modula-2",
+          "Simula",
+          "Smalltalk"
+        ]
+      }
     },
     "C": {
       "name": "C",
       "info": {
         "file_extension": [
-          "c",
-          "h"
+          ".c",
+          ".h"
         ],
         "origin_year": 1972,
+        "expression_style": "infix",
         "type_system": [
           "static",
           "weak",
@@ -101,15 +247,46 @@
     },
     "C4wa": {
       "name": "C4wa",
-      "info": {}
+      "info": {
+        "file_extension": [
+          ".c",
+          ".h"
+        ],
+        "website": "https://github.com/kign/c4wa",
+        "compiles_to": "WebAssembly"
+      }
     },
     "Carp": {
       "name": "Carp",
-      "info": {}
+      "info": {
+        "file_extension": ".carp",
+        "website": "https://github.com/carp-lang/Carp",
+        "expression_style": "prefix",
+        "influenced_by": "Lisp"
+      }
     },
     "Clean": {
       "name": "Clean",
-      "info": {}
+      "info": {
+        "file_extension": [
+          ".icl",
+          ".dcl",
+          ".abc"
+        ],
+        "origin_year": 1987,
+        "website": "https://wiki.clean.cs.ru.nl/Clean",
+        "type_system": [
+          "strong",
+          "static",
+          "dynamic"
+        ],
+        "paradigm": "functional",
+        "influenced_by": [
+          "Lean",
+          "Miranda",
+          "Haskell"
+        ]
+      }
     },
     "Clojure": {
       "name": "Clojure",
@@ -262,6 +439,7 @@
       "name": "Lisp",
       "info": {
         "origin_year": 1960,
+        "expression_style": "prefix",
         "type_system": [
           "dynamic",
           "strong"
@@ -374,9 +552,9 @@
       "name": "Prolog",
       "info": {
         "file_extension": [
-          "pl",
-          "pro",
-          "P"
+          ".pl",
+          ".pro",
+          ".P"
         ],
         "origin_year": 1972,
         "type_system": "untyped",
