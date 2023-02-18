@@ -25,10 +25,18 @@ class Template:
 
 category_template = Template("category")
 thing_template = Template("thing")
+info_template = Template("info")
+
+
+def generate_info(name: str, value: thngs.ThingInfo) -> str:
+    # TODO: Correctly handle list values
+    return info_template.generate({"name": name, "value": f"{value}"})
 
 
 def generate_thing(thing: thngs.Thing) -> str:
-    return ""
+    info_list = [generate_info(name, value) for name, value in thing.info.items()]
+
+    return thing_template.generate({"name": thing.name, "info": "\n".join(info_list)})
 
 
 def generate_category(category_name: str) -> str:
@@ -69,4 +77,3 @@ if __name__ == "__main__":
         path = os.path.join(OUTPUT_PATH, f"{category_name}.html")
         with open(path, "w") as file:
             file.write(text)
-
