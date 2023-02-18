@@ -1,11 +1,409 @@
 {
   "display_name": "Programming Languages",
   "things": {
-    "python": {
+    "ABS": {
+      "name": "ABS",
+      "info": {}
+    },
+    "Ada": {
+      "name": "Ada",
+      "info": {}
+    },
+    "Agda": {
+      "name": "Agda",
+      "info": {}
+    },
+    "APL": {
+      "name": "APL",
+      "info": {}
+    },
+    "AssemblyScript": {
+      "name": "AssemblyScript",
+      "info": {}
+    },
+    "ATS": {
+      "name": "ATS",
+      "info": {}
+    },
+    "Ballerina": {
+      "name": "Ballerina",
+      "info": {}
+    },
+    "Beef": {
+      "name": "Beef",
+      "info": {}
+    },
+    "Bloom": {
+      "name": "Bloom",
+      "info": {}
+    },
+    "Bolin": {
+      "name": "Bolin",
+      "info": {}
+    },
+    "C++": {
+      "name": "C++",
+      "info": {}
+    },
+    "C": {
+      "name": "C",
+      "info": {}
+    },
+    "C4wa": {
+      "name": "C4wa",
+      "info": {}
+    },
+    "Carp": {
+      "name": "Carp",
+      "info": {}
+    },
+    "Clean": {
+      "name": "Clean",
+      "info": {}
+    },
+    "Clojure": {
+      "name": "Clojure",
+      "info": {}
+    },
+    "ClojureScript": {
+      "name": "ClojureScript",
+      "info": {}
+    },
+    "Co": {
+      "name": "Co",
+      "info": {}
+    },
+    "COBOL": {
+      "name": "COBOL",
+      "info": {}
+    },
+    "Coq": {
+      "name": "Coq",
+      "info": {}
+    },
+    "Crystal": {
+      "name": "Crystal",
+      "info": {}
+    },
+    "Cyber": {
+      "name": "Cyber",
+      "info": {}
+    },
+    "D": {
+      "name": "D",
+      "info": {}
+    },
+    "Dart": {
+      "name": "Dart",
+      "info": {}
+    },
+    "Dyon": {
+      "name": "Dyon",
+      "info": {}
+    },
+    "Eclair": {
+      "name": "Eclair",
+      "info": {}
+    },
+    "Eel": {
+      "name": "Eel",
+      "info": {}
+    },
+    "Elixir": {
+      "name": "Elixir",
+      "info": {}
+    },
+    "Elm": {
+      "name": "Elm",
+      "info": {}
+    },
+    "Erlang": {
+      "name": "Erlang",
+      "info": {}
+    },
+    "Faust": {
+      "name": "Faust",
+      "info": {}
+    },
+    "Fennel": {
+      "name": "Fennel",
+      "info": {}
+    },
+    "Forest": {
+      "name": "Forest",
+      "info": {}
+    },
+    "Forth": {
+      "name": "Forth",
+      "info": {}
+    },
+    "F Sharp": {
+      "name": "F Sharp",
+      "info": {}
+    },
+    "Go": {
+      "name": "Go",
+      "info": {}
+    },
+    "Gosu": {
+      "name": "Gosu",
+      "info": {}
+    },
+    "Grain": {
+      "name": "Grain",
+      "info": {}
+    },
+    "Haskell": {
+      "name": "Haskell",
+      "info": {}
+    },
+    "Haxe": {
+      "name": "Haxe",
+      "info": {}
+    },
+    "Hope": {
+      "name": "Hope",
+      "info": {}
+    },
+    "Hy": {
+      "name": "Hy",
+      "info": {}
+    },
+    "Idris": {
+      "name": "Idris",
+      "info": {}
+    },
+    "Inko": {
+      "name": "Inko",
+      "info": {}
+    },
+    "Java": {
+      "name": "Java",
+      "info": {}
+    },
+    "JavaScript": {
+      "name": "JavaScript",
+      "info": {}
+    },
+    "Julia": {
+      "name": "Julia",
+      "info": {}
+    },
+    "Koka": {
+      "name": "Koka",
+      "info": {}
+    },
+    "Kotlin": {
+      "name": "Kotlin",
+      "info": {}
+    },
+    "Kou": {
+      "name": "Kou",
+      "info": {}
+    },
+    "Lisp": {
+      "name": "Lisp",
+      "info": {}
+    },
+    "Lobster": {
+      "name": "Lobster",
+      "info": {}
+    },
+    "Lua": {
+      "name": "Lua",
+      "info": {}
+    },
+    "Lys": {
+      "name": "Lys",
+      "info": {}
+    },
+    "Magpie": {
+      "name": "Magpie",
+      "info": {}
+    },
+    "Mint": {
+      "name": "Mint",
+      "info": {}
+    },
+    "MoonScript": {
+      "name": "MoonScript",
+      "info": {}
+    },
+    "Mun": {
+      "name": "Mun",
+      "info": {}
+    },
+    "Never": {
+      "name": "Never",
+      "info": {}
+    },
+    "Nim": {
+      "name": "Nim",
+      "info": {}
+    },
+    "NuShell": {
+      "name": "NuShell",
+      "info": {}
+    },
+    "Ocaml": {
+      "name": "Ocaml",
+      "info": {}
+    },
+    "Opa": {
+      "name": "Opa",
+      "info": {}
+    },
+    "Pascal": {
+      "name": "Pascal",
+      "info": {}
+    },
+    "Perl": {
+      "name": "Perl",
+      "info": {}
+    },
+    "PHP": {
+      "name": "PHP",
+      "info": {}
+    },
+    "Picat": {
+      "name": "Picat",
+      "info": {}
+    },
+    "Plorth": {
+      "name": "Plorth",
+      "info": {}
+    },
+    "Poetry": {
+      "name": "Poetry",
+      "info": {}
+    },
+    "Pony": {
+      "name": "Pony",
+      "info": {}
+    },
+    "Prolog": {
+      "name": "Prolog",
+      "info": {}
+    },
+    "PRQL": {
+      "name": "PRQL",
+      "info": {}
+    },
+    "PureScript": {
+      "name": "PureScript",
+      "info": {}
+    },
+    "Python": {
       "name": "Python",
-      "info": {
-        "exec_method": "interpreted"
-      }
+      "info": {}
+    },
+    "ReScript": {
+      "name": "ReScript",
+      "info": {}
+    },
+    "Roc": {
+      "name": "Roc",
+      "info": {}
+    },
+    "Ruby": {
+      "name": "Ruby",
+      "info": {}
+    },
+    "Rust": {
+      "name": "Rust",
+      "info": {}
+    },
+    "Scala": {
+      "name": "Scala",
+      "info": {}
+    },
+    "ScalaJS": {
+      "name": "ScalaJS",
+      "info": {}
+    },
+    "Scheme": {
+      "name": "Scheme",
+      "info": {}
+    },
+    "Scopes": {
+      "name": "Scopes",
+      "info": {}
+    },
+    "Smalltalk": {
+      "name": "Smalltalk",
+      "info": {}
+    },
+    "Squiggle": {
+      "name": "Squiggle",
+      "info": {}
+    },
+    "Swift": {
+      "name": "Swift",
+      "info": {}
+    },
+    "Telescript": {
+      "name": "Telescript",
+      "info": {}
+    },
+    "TypeScript": {
+      "name": "TypeScript",
+      "info": {}
+    },
+    "Unison": {
+      "name": "Unison",
+      "info": {}
+    },
+    "Urn": {
+      "name": "Urn",
+      "info": {}
+    },
+    "Val": {
+      "name": "Val",
+      "info": {}
+    },
+    "Vale": {
+      "name": "Vale",
+      "info": {}
+    },
+    "Verse": {
+      "name": "Verse",
+      "info": {}
+    },
+    "Wa": {
+      "name": "Wa",
+      "info": {}
+    },
+    "Wah": {
+      "name": "Wah",
+      "info": {}
+    },
+    "Walt": {
+      "name": "Walt",
+      "info": {}
+    },
+    "Wam": {
+      "name": "Wam",
+      "info": {}
+    },
+    "Wase": {
+      "name": "Wase",
+      "info": {}
+    },
+    "WebAssembly": {
+      "name": "WebAssembly",
+      "info": {}
+    },
+    "Wracket": {
+      "name": "Wracket",
+      "info": {}
+    },
+    "Wren": {
+      "name": "Wren",
+      "info": {}
+    },
+    "Zig": {
+      "name": "Zig",
+      "info": {}
     }
   }
 }
