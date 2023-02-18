@@ -26,43 +26,32 @@
     padding-left: 0.25rem;
 
     font-weight: 500;
-    font-size: 1.5rem;
-}
-
-.thng--info-list {
-    padding: 0.25rem;
-
-    border-radius: 0.5rem;
-
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    
-    background-color: #e0e0e0;
+    font-size: 2rem;
 }
 
 .thng--info {
-    padding: 0.5rem 1rem;
-
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
-    background-color: #f2f2f2;
-}
-
-.thng--info:first-of-type {
-    border-radius: 0.5rem 0.5rem 0 0;
-}
-
-.thng--info:nth-of-type(odd) {
-    background-color: #e0e0e0;
-}
-
-.thng--info:last-of-type {
-    border-radius: 0 0 0.5rem 0.5rem;
 }
 
 .thng--info__name {
+    font-family: monospace;
     font-size: 1.25rem;
+}
+
+.thng--info__value {
+    font-family: monospace;
+    font-size: 1.25rem;
+}
+
+.thng--info__values {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+}
+
+.thng--info__values > .thng--info__value {
+    text-align: right;
 }

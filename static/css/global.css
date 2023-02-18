@@ -42,3 +42,27 @@ body {
 #logo:hover {
     opacity: 0.6;
 }
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.list--item {
+    padding: 1rem;
+
+    background-color: #d9d9d9;
+}
+
+.list--item:first-of-type {
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.list--item:nth-of-type(odd) {
+    background-color: #e6e6e6;
+}
+
+.list--item:last-of-type {
+    border-radius: 0 0 0.5rem 0.5rem;
+}

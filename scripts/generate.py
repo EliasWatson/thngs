@@ -26,11 +26,22 @@ class Template:
 category_template = Template("category")
 thing_template = Template("thing")
 info_template = Template("info")
+info_list_template = Template("info_list")
+info_list_element_template = Template("info_list_element")
 
 
 def generate_info(name: str, value: thngs.ThingInfo) -> str:
-    # TODO: Correctly handle list values
-    return info_template.generate({"name": name, "value": f"{value}"})
+    if isinstance(value, list):
+        generated_values = [
+            info_list_element_template.generate({"value": f"{subvalue}"})
+            for subvalue in value
+        ]
+
+        return info_list_template.generate(
+            {"name": name, "values": "\n".join(generated_values)}
+        )
+    else:
+        return info_template.generate({"name": name, "value": f"{value}"})
 
 
 def generate_thing(thing: thngs.Thing) -> str:
