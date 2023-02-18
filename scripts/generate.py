@@ -65,3 +65,8 @@ def generate_all_categories() -> list[tuple[str, str]]:
 if __name__ == "__main__":
     generated_categories = generate_all_categories()
 
+    for category_name, text in generated_categories:
+        path = os.path.join(OUTPUT_PATH, f"{category_name}.html")
+        with open(path, "w") as file:
+            file.write(text)
+
