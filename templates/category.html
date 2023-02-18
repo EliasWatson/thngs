@@ -18,15 +18,20 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
     <link rel="stylesheet" href="css/normalize.css?v=8.0.1" />
+    <link rel="stylesheet" href="css/global.css?v=1.0" />
     <link rel="stylesheet" href="css/thngs.css?v=1.0" />
     <link rel="stylesheet" href="css/print.css?v=1.0" />
   </head>
   <body>
-    <div id="page">
-      <div id="header">
-        <div id="logo">thngs</div>
-        <div id="category">{name}</div>
+    <div id="header-bg">
+      <div class="page-width">
+        <div id="header">
+          <div id="logo">thngs</div>
+          <div id="category">{name}</div>
+        </div>
       </div>
+    </div>
+    <div class="page-width">
       <div id="thngs">
         {things}
       </div>

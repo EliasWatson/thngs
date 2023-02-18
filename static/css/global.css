@@ -1,0 +1,44 @@
+body {
+    background-color: #e0e0e0;
+    color: #0d0d0d;
+}
+
+.page-width {
+    max-width: 70em;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: sans-serif;
+}
+
+#header-bg {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+
+    width: 100%;
+
+    background-color: #f2f2f2;
+}
+
+#header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.5rem;
+
+    font-size: 2rem;
+}
+
+#logo {
+    font-weight: bold;
+
+    user-select: none;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+#logo:hover {
+    opacity: 0.6;
+}
