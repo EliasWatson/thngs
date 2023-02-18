@@ -13,9 +13,34 @@
       "name": "Agda",
       "info": {}
     },
+    "ALGOL": {
+      "name": "ALGOL",
+      "info": {
+        "origin_year": 1958,
+        "type_system": [
+          "static",
+          "strong"
+        ],
+        "scope": "lexical",
+        "paradigm": [
+          "procedural",
+          "imperative",
+          "structured"
+        ]
+      }
+    },
     "APL": {
       "name": "APL",
-      "info": {}
+      "info": {
+        "origin_year": 1966,
+        "type_system": "dynamic",
+        "paradigm": [
+          "array",
+          "functional",
+          "structured",
+          "modular"
+        ]
+      }
     },
     "AssemblyScript": {
       "name": "AssemblyScript",
@@ -47,7 +72,32 @@
     },
     "C": {
       "name": "C",
-      "info": {}
+      "info": {
+        "file_extension": [
+          "c",
+          "h"
+        ],
+        "origin_year": 1972,
+        "type_system": [
+          "static",
+          "weak",
+          "manifest",
+          "nominal"
+        ],
+        "paradigm": [
+          "multi",
+          "imperative",
+          "procedural",
+          "structured"
+        ],
+        "influenced_by": [
+          "B",
+          "ALGOL",
+          "assembly",
+          "PL/I",
+          "FORTRAN"
+        ]
+      }
     },
     "C4wa": {
       "name": "C4wa",
@@ -177,6 +227,13 @@
       "name": "Inko",
       "info": {}
     },
+    "IPL": {
+      "name": "IPL",
+      "info": {
+        "origin_year": 1956,
+        "paradigm": "assembly"
+      }
+    },
     "Java": {
       "name": "Java",
       "info": {}
@@ -203,7 +260,21 @@
     },
     "Lisp": {
       "name": "Lisp",
-      "info": {}
+      "info": {
+        "origin_year": 1960,
+        "type_system": [
+          "dynamic",
+          "strong"
+        ],
+        "paradigm": [
+          "multi",
+          "functional",
+          "procedural",
+          "reflective",
+          "meta"
+        ],
+        "influenced_by": "IPL"
+      }
     },
     "Lobster": {
       "name": "Lobster",
@@ -224,6 +295,24 @@
     "Mint": {
       "name": "Mint",
       "info": {}
+    },
+    "ML": {
+      "name": "ML",
+      "info": {
+        "origin_year": 1973,
+        "type_system": [
+          "inferred",
+          "static",
+          "strong"
+        ],
+        "paradigm": [
+          "multi",
+          "functional",
+          "generic",
+          "imperative"
+        ],
+        "influenced_by": "ISWIM"
+      }
     },
     "MoonScript": {
       "name": "MoonScript",
@@ -283,7 +372,17 @@
     },
     "Prolog": {
       "name": "Prolog",
-      "info": {}
+      "info": {
+        "file_extension": [
+          "pl",
+          "pro",
+          "P"
+        ],
+        "origin_year": 1972,
+        "type_system": "untyped",
+        "paradigm": "logic",
+        "influenced_by": "Planner"
+      }
     },
     "PRQL": {
       "name": "PRQL",
@@ -329,9 +428,58 @@
       "name": "Scopes",
       "info": {}
     },
+    "Simuala": {
+      "name": "Simula",
+      "info": {
+        "origin_year": 1962,
+        "type_system": [
+          "static",
+          "nominative"
+        ],
+        "scope": "lexical",
+        "paradigm": [
+          "multi",
+          "procedural",
+          "imperative",
+          "structured",
+          "object_oriented"
+        ],
+        "influenced_by": [
+          "ALGOL",
+          "SIMSCRIPT"
+        ]
+      }
+    },
+    "SIMSCRIPT": {
+      "name": "SIMSCRIPT",
+      "info": {
+        "origin_year": 1962,
+        "paradigm": "natural_language"
+      }
+    },
     "Smalltalk": {
       "name": "Smalltalk",
-      "info": {}
+      "info": {
+        "origin_year": 1972,
+        "type_system": [
+          "objects",
+          "strong",
+          "dynamic"
+        ],
+        "scope": "lexical",
+        "paradigm": "object_oriented",
+        "influenced_by": [
+          "Lisp",
+          "Simula",
+          "Euler",
+          "IMP",
+          "Planner",
+          "Logo",
+          "Sketchpad",
+          "ARPAnet",
+          "Burroughs B5000"
+        ]
+      }
     },
     "Squiggle": {
       "name": "Squiggle",
