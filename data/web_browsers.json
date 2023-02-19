@@ -1,0 +1,164 @@
+{
+  "display_name": "Web Browsers",
+  "things": {
+    "Arc": {
+      "name": "Arc",
+      "info": {
+        "website": "https://arc.net",
+        "supported_os": "MacOS"
+      }
+    },
+    "SigmaOS": {
+      "name": "SigmaOS",
+      "info": {
+        "website": "https://sigmaos.com",
+        "supported_os": "MacOS"
+      }
+    },
+    "Stack": {
+      "name": "Stack",
+      "info": {
+        "website": "https://stackbrowser.com",
+        "supported_os": [
+          "MacOS",
+          "Windows"
+        ]
+      }
+    },
+    "Sidekick": {
+      "name": "Sidekick",
+      "info": {
+        "website": "https://www.meetsidekick.com",
+        "supported_os": [
+          "MacOS",
+          "Windows",
+          "Linux"
+        ]
+      }
+    },
+    "Wavebox": {
+      "name": "Wavebox",
+      "info": {
+        "website": "https://wavebox.io",
+        "supported_os": [
+          "MacOS",
+          "Windows",
+          "Linux"
+        ]
+      }
+    },
+    "Shift": {
+      "name": "Shift",
+      "info": {
+        "website": "https://tryshift.com",
+        "supported_os": [
+          "MacOS",
+          "Windows"
+        ]
+      }
+    },
+    "Station": {
+      "name": "Station",
+      "info": {
+        "website": "https://getstation.com",
+        "supported_os": [
+          "MacOS",
+          "Windows",
+          "Linux"
+        ]
+      }
+    },
+    "Orion": {
+      "name": "Orion",
+      "info": {
+        "website": "https://browser.kagi.com",
+        "supported_os": [
+          "MacOS",
+          "iOS",
+          "iPadOS"
+        ]
+      }
+    },
+    "Chrome": {
+      "name": "Chrome",
+      "info": {
+        "website": "https://www.google.com/chrome/",
+        "supported_os": [
+          "MacOS",
+          "Windows",
+          "Linux",
+          "Android",
+          "iOS",
+          "iPadOS"
+        ]
+      }
+    },
+    "Firefox": {
+      "name": "Firefox",
+      "info": {
+        "website": "https://www.mozilla.org/en-US/firefox/new/",
+        "supported_os": [
+          "MacOS",
+          "Windows",
+          "Linux",
+          "Android",
+          "iOS",
+          "iPadOS"
+        ]
+      }
+    },
+    "Opera": {
+      "name": "Opera",
+      "info": {
+        "website": "https://www.opera.com",
+        "supported_os": [
+          "MacOS",
+          "Windows",
+          "Linux",
+          "Android",
+          "iOS",
+          "iPadOS"
+        ]
+      }
+    },
+    "Edge": {
+      "name": "Edge",
+      "info": {
+        "website": "https://www.microsoft.com/en-us/edge",
+        "supported_os": [
+          "MacOS",
+          "Windows",
+          "Linux",
+          "Android",
+          "iOS",
+          "iPadOS"
+        ]
+      }
+    },
+    "Safari": {
+      "name": "Safari",
+      "info": {
+        "website": "https://www.apple.com/safari/",
+        "supported_os": [
+          "MacOS",
+          "iOS",
+          "iPadOS"
+        ]
+      }
+    },
+    "Brave": {
+      "name": "Brave",
+      "info": {
+        "website": "https://brave.com",
+        "supported_os": [
+          "MacOS",
+          "Windows",
+          "Linux",
+          "Android",
+          "iOS",
+          "iPadOS"
+        ]
+      }
+    }
+  }
+}
