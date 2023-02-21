@@ -261,6 +261,7 @@
       "info": {
         "file_extension": ".carp",
         "website": "https://github.com/carp-lang/Carp",
+        "family": "lisp",
         "expression_style": "prefix",
         "influenced_by": "Lisp"
       }
@@ -290,35 +291,128 @@
     },
     "Clojure": {
       "name": "Clojure",
-      "info": {}
+      "info": {
+        "file_extension": [
+          ".clj",
+          ".cljs",
+          ".cljc",
+          ".edn"
+        ],
+        "origin_year": 2007,
+        "website": "https://clojure.org",
+        "family": "lisp",
+        "type_system": [
+          "dynamic",
+          "strong"
+        ],
+        "paradigm": [
+          "multi",
+          "agent_oriented",
+          "concurrent",
+          "functional",
+          "logic",
+          "macro",
+          "pipeline"
+        ],
+        "compiles_to": "JVM"
+      }
     },
     "ClojureScript": {
       "name": "ClojureScript",
-      "info": {}
+      "info": {
+        "website": "https://github.com/clojure/clojurescript",
+        "family": "lisp",
+        "compiles_to": "JavaScript"
+      }
     },
     "Co": {
       "name": "Co",
-      "info": {}
+      "info": {
+        "website": "https://co-lang.org/",
+        "compiles_to": [
+          "native",
+          "WebAssembly"
+        ]
+      }
     },
     "COBOL": {
       "name": "COBOL",
-      "info": {}
+      "info": {
+        "file_extension": [
+          ".cbl",
+          ".cob",
+          ".cpy"
+        ],
+        "origin_year": 1959,
+        "type_system": [
+          "weak",
+          "static"
+        ],
+        "paradigm": [
+          "procedural",
+          "imperative",
+          "object_oriented",
+          "generic",
+          "natural_language"
+        ]
+      }
     },
     "Coq": {
       "name": "Coq",
-      "info": {}
+      "info": {
+        "origin_year": 1989,
+        "website": "https://coq.inria.fr/",
+        "paradigm": "proof_assistant"
+      }
     },
     "Crystal": {
       "name": "Crystal",
-      "info": {}
+      "info": {
+        "file_extension": ".cr",
+        "origin_year": 2014,
+        "website": "https://crystal-lang.org/",
+        "type_system": [
+          "static",
+          "inferred",
+          "nominal",
+          "duck"
+        ],
+        "paradigm": [
+          "multi",
+          "object_oriented",
+          "concurrent"
+        ]
+      }
     },
     "Cyber": {
       "name": "Cyber",
-      "info": {}
+      "info": {
+        "file_extension": ".cy",
+        "website": "https://cyberscript.dev/",
+        "language_type": [
+          "scripting",
+          "embeddable"
+        ]
+      }
     },
     "D": {
       "name": "D",
-      "info": {}
+      "info": {
+        "file_extension": ".d",
+        "origin_year": 2001,
+        "website": "https://dlang.org/",
+        "type_system": [
+          "inferred",
+          "static",
+          "strong"
+        ],
+        "paradigm": [
+          "multi",
+          "functional",
+          "imperative",
+          "object_oriented"
+        ]
+      }
     },
     "Dart": {
       "name": "Dart",
