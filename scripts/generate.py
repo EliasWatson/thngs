@@ -44,17 +44,20 @@ def generate_info(name: str, value: thngs.ThingInfo) -> str:
         return info_template.generate({"name": name, "value": f"{value}"})
 
 
-def generate_thing(thing: thngs.Thing) -> str:
-    info_list = [generate_info(name, value) for name, value in thing.info.items()]
+def generate_thing(name: str, info: dict[str, thngs.ThingInfo]) -> str:
+    info_list = [generate_info(name, value) for name, value in info.items()]
 
-    return thing_template.generate({"name": thing.name, "info": "\n".join(info_list)})
+    return thing_template.generate({"name": name, "info": "\n".join(info_list)})
 
 
 def generate_category(category_name: str) -> str:
     print(f"Generating '{category_name}.html'")
 
     category = thngs.Category(category_name)
-    things = [generate_thing(thing) for thing in category.things.values()]
+    things = [
+        generate_thing(thing_name, thing_info)
+        for thing_name, thing_info in category.things.items()
+    ]
 
     display_name = (
         category.display_name
