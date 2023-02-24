@@ -3,28 +3,69 @@
   "things": {
     "ABS": {
       "file_extension": ".abs",
-      "language_type": "scripting",
-      "website": "https://www.abs-lang.org",
       "influenced_by": [
         "Ruby",
         "Python",
         "JavaScript",
         "Bash"
+      ],
+      "language_type": "scripting",
+      "website": "https://www.abs-lang.org"
+    },
+    "ALGOL": {
+      "origin_year": 1958,
+      "paradigm": [
+        "procedural",
+        "imperative",
+        "structured"
+      ],
+      "scope": "lexical",
+      "type_system": [
+        "static",
+        "strong"
       ]
+    },
+    "APL": {
+      "origin_year": 1966,
+      "paradigm": [
+        "array",
+        "functional",
+        "structured",
+        "modular"
+      ],
+      "type_system": "dynamic"
+    },
+    "ATS": {
+      "file_extension": [
+        ".sats",
+        ".dats",
+        ".hats"
+      ],
+      "origin_year": 2020,
+      "paradigm": [
+        "multi",
+        "functional",
+        "imperative"
+      ],
+      "type_system": "static",
+      "website": "https://www.cs.bu.edu/~hwxi/atslangweb/"
     },
     "Ada": {
       "file_extension": [
         ".adb",
         ".ads"
       ],
-      "origin_year": 1980,
-      "website": "https://www.adaic.org",
-      "type_system": [
-        "static",
-        "strong",
-        "safe",
-        "nominal"
+      "influenced_by": [
+        "ALGOL",
+        "Pascal",
+        "Simula",
+        "C++",
+        "Smalltalk",
+        "Modula-2",
+        "Java",
+        "Eiffel"
       ],
+      "origin_year": 1980,
       "paradigm": [
         "multi",
         "structured",
@@ -38,16 +79,13 @@
         "procedural",
         "meta"
       ],
-      "influenced_by": [
-        "ALGOL",
-        "Pascal",
-        "Simula",
-        "C++",
-        "Smalltalk",
-        "Modula-2",
-        "Java",
-        "Eiffel"
-      ]
+      "type_system": [
+        "static",
+        "strong",
+        "safe",
+        "nominal"
+      ],
+      "website": "https://www.adaic.org"
     },
     "Agda": {
       "file_extension": [
@@ -57,8 +95,13 @@
         ".lagda.rst",
         ".lagda.tex"
       ],
+      "influenced_by": [
+        "Coq",
+        "Epigram",
+        "Haskell"
+      ],
       "origin_year": 1999,
-      "website": "https://wiki.portal.chalmers.se/agda/pmwiki.php",
+      "paradigm": "functional",
       "type_system": [
         "strong",
         "static",
@@ -67,55 +110,12 @@
         "manifest",
         "inferred"
       ],
-      "paradigm": "functional",
-      "influenced_by": [
-        "Coq",
-        "Epigram",
-        "Haskell"
-      ]
-    },
-    "ALGOL": {
-      "origin_year": 1958,
-      "type_system": [
-        "static",
-        "strong"
-      ],
-      "scope": "lexical",
-      "paradigm": [
-        "procedural",
-        "imperative",
-        "structured"
-      ]
-    },
-    "APL": {
-      "origin_year": 1966,
-      "type_system": "dynamic",
-      "paradigm": [
-        "array",
-        "functional",
-        "structured",
-        "modular"
-      ]
+      "website": "https://wiki.portal.chalmers.se/agda/pmwiki.php"
     },
     "AssemblyScript": {
+      "compiles_to": "WebAssembly",
       "file_extension": ".ts",
-      "website": "https://www.assemblyscript.org",
-      "compiles_to": "WebAssembly"
-    },
-    "ATS": {
-      "file_extension": [
-        ".sats",
-        ".dats",
-        ".hats"
-      ],
-      "origin_year": 2020,
-      "website": "https://www.cs.bu.edu/~hwxi/atslangweb/",
-      "type_system": "static",
-      "paradigm": [
-        "multi",
-        "functional",
-        "imperative"
-      ]
+      "website": "https://www.assemblyscript.org"
     },
     "Ballerina": {
       "file_extension": ".bal",
@@ -133,7 +133,35 @@
     "Bolin": {
       "website": "https://bolinlang.com"
     },
+    "C": {
+      "expression_style": "infix",
+      "file_extension": [
+        ".c",
+        ".h"
+      ],
+      "influenced_by": [
+        "B",
+        "ALGOL",
+        "assembly",
+        "PL/I",
+        "FORTRAN"
+      ],
+      "origin_year": 1972,
+      "paradigm": [
+        "multi",
+        "imperative",
+        "procedural",
+        "structured"
+      ],
+      "type_system": [
+        "static",
+        "weak",
+        "manifest",
+        "nominal"
+      ]
+    },
     "C++": {
+      "expression_style": "infix",
       "file_extension": [
         ".C",
         ".cc",
@@ -147,24 +175,6 @@
         ".hxx",
         ".h++"
       ],
-      "origin_year": 1985,
-      "website": "https://isocpp.org",
-      "expression_style": "infix",
-      "type_system": [
-        "static",
-        "strong",
-        "nominative",
-        "partially_inferred"
-      ],
-      "paradigm": [
-        "multi",
-        "procedural",
-        "imperative",
-        "functional",
-        "object_oriented",
-        "generic",
-        "modular"
-      ],
       "influenced_by": [
         "Ada",
         "ALGOL",
@@ -177,49 +187,58 @@
         "Modula-2",
         "Simula",
         "Smalltalk"
-      ]
-    },
-    "C": {
-      "file_extension": [
-        ".c",
-        ".h"
       ],
-      "origin_year": 1972,
-      "expression_style": "infix",
-      "type_system": [
-        "static",
-        "weak",
-        "manifest",
-        "nominal"
-      ],
+      "origin_year": 1985,
       "paradigm": [
         "multi",
-        "imperative",
         "procedural",
-        "structured"
+        "imperative",
+        "functional",
+        "object_oriented",
+        "generic",
+        "modular"
       ],
-      "influenced_by": [
-        "B",
-        "ALGOL",
-        "assembly",
-        "PL/I",
-        "FORTRAN"
-      ]
+      "type_system": [
+        "static",
+        "strong",
+        "nominative",
+        "partially_inferred"
+      ],
+      "website": "https://isocpp.org"
     },
     "C4wa": {
+      "compiles_to": "WebAssembly",
       "file_extension": [
         ".c",
         ".h"
       ],
-      "website": "https://github.com/kign/c4wa",
-      "compiles_to": "WebAssembly"
+      "website": "https://github.com/kign/c4wa"
+    },
+    "COBOL": {
+      "file_extension": [
+        ".cbl",
+        ".cob",
+        ".cpy"
+      ],
+      "origin_year": 1959,
+      "paradigm": [
+        "procedural",
+        "imperative",
+        "object_oriented",
+        "generic",
+        "natural_language"
+      ],
+      "type_system": [
+        "weak",
+        "static"
+      ]
     },
     "Carp": {
-      "file_extension": ".carp",
-      "website": "https://github.com/carp-lang/Carp",
-      "family": "lisp",
       "expression_style": "prefix",
-      "influenced_by": "Lisp"
+      "family": "lisp",
+      "file_extension": ".carp",
+      "influenced_by": "Lisp",
+      "website": "https://github.com/carp-lang/Carp"
     },
     "Clean": {
       "file_extension": [
@@ -227,21 +246,23 @@
         ".dcl",
         ".abc"
       ],
+      "influenced_by": [
+        "Lean",
+        "Miranda",
+        "Haskell"
+      ],
       "origin_year": 1987,
-      "website": "https://wiki.clean.cs.ru.nl/Clean",
+      "paradigm": "functional",
       "type_system": [
         "strong",
         "static",
         "dynamic"
       ],
-      "paradigm": "functional",
-      "influenced_by": [
-        "Lean",
-        "Miranda",
-        "Haskell"
-      ]
+      "website": "https://wiki.clean.cs.ru.nl/Clean"
     },
     "Clojure": {
+      "compiles_to": "JVM",
+      "family": "lisp",
       "file_extension": [
         ".clj",
         ".cljs",
@@ -249,12 +270,6 @@
         ".edn"
       ],
       "origin_year": 2007,
-      "website": "https://clojure.org",
-      "family": "lisp",
-      "type_system": [
-        "dynamic",
-        "strong"
-      ],
       "paradigm": [
         "multi",
         "agent_oriented",
@@ -264,83 +279,68 @@
         "macro",
         "pipeline"
       ],
-      "compiles_to": "JVM"
+      "type_system": [
+        "dynamic",
+        "strong"
+      ],
+      "website": "https://clojure.org"
     },
     "ClojureScript": {
-      "website": "https://github.com/clojure/clojurescript",
+      "compiles_to": "JavaScript",
       "family": "lisp",
-      "compiles_to": "JavaScript"
+      "website": "https://github.com/clojure/clojurescript"
     },
     "Co": {
-      "website": "https://co-lang.org/",
       "compiles_to": [
         "native",
         "WebAssembly"
-      ]
-    },
-    "COBOL": {
-      "file_extension": [
-        ".cbl",
-        ".cob",
-        ".cpy"
       ],
-      "origin_year": 1959,
-      "type_system": [
-        "weak",
-        "static"
-      ],
-      "paradigm": [
-        "procedural",
-        "imperative",
-        "object_oriented",
-        "generic",
-        "natural_language"
-      ]
+      "website": "https://co-lang.org/"
     },
     "Coq": {
       "origin_year": 1989,
-      "website": "https://coq.inria.fr/",
-      "paradigm": "proof_assistant"
+      "paradigm": "proof_assistant",
+      "website": "https://coq.inria.fr/"
     },
     "Crystal": {
       "file_extension": ".cr",
       "origin_year": 2014,
-      "website": "https://crystal-lang.org/",
+      "paradigm": [
+        "multi",
+        "object_oriented",
+        "concurrent"
+      ],
       "type_system": [
         "static",
         "inferred",
         "nominal",
         "duck"
       ],
-      "paradigm": [
-        "multi",
-        "object_oriented",
-        "concurrent"
-      ]
+      "website": "https://crystal-lang.org/"
     },
     "Cyber": {
       "file_extension": ".cy",
-      "website": "https://cyberscript.dev/",
       "language_type": [
         "scripting",
         "embeddable"
-      ]
+      ],
+      "website": "https://cyberscript.dev/"
     },
     "D": {
       "file_extension": ".d",
       "origin_year": 2001,
-      "website": "https://dlang.org/",
-      "type_system": [
-        "inferred",
-        "static",
-        "strong"
-      ],
       "paradigm": [
         "multi",
         "functional",
         "imperative",
         "object_oriented"
-      ]
+      ],
+      "type_system": [
+        "inferred",
+        "static",
+        "strong"
+      ],
+      "website": "https://dlang.org/"
     },
     "Dart": {},
     "Dyon": {},
@@ -349,11 +349,11 @@
     "Elixir": {},
     "Elm": {},
     "Erlang": {},
+    "F Sharp": {},
     "Faust": {},
     "Fennel": {},
     "Forest": {},
     "Forth": {},
-    "F Sharp": {},
     "Go": {},
     "Gosu": {},
     "Grain": {},
@@ -361,12 +361,12 @@
     "Haxe": {},
     "Hope": {},
     "Hy": {},
-    "Idris": {},
-    "Inko": {},
     "IPL": {
       "origin_year": 1956,
       "paradigm": "assembly"
     },
+    "Idris": {},
+    "Inko": {},
     "Java": {},
     "JavaScript": {},
     "Julia": {},
@@ -374,12 +374,9 @@
     "Kotlin": {},
     "Kou": {},
     "Lisp": {
-      "origin_year": 1960,
       "expression_style": "prefix",
-      "type_system": [
-        "dynamic",
-        "strong"
-      ],
+      "influenced_by": "IPL",
+      "origin_year": 1960,
       "paradigm": [
         "multi",
         "functional",
@@ -387,28 +384,31 @@
         "reflective",
         "meta"
       ],
-      "influenced_by": "IPL"
+      "type_system": [
+        "dynamic",
+        "strong"
+      ]
     },
     "Lobster": {},
     "Lua": {},
     "Lys": {},
-    "Magpie": {},
-    "Mint": {},
     "ML": {
+      "influenced_by": "ISWIM",
       "origin_year": 1973,
-      "type_system": [
-        "inferred",
-        "static",
-        "strong"
-      ],
       "paradigm": [
         "multi",
         "functional",
         "generic",
         "imperative"
       ],
-      "influenced_by": "ISWIM"
+      "type_system": [
+        "inferred",
+        "static",
+        "strong"
+      ]
     },
+    "Magpie": {},
+    "Mint": {},
     "MoonScript": {},
     "Mun": {},
     "Never": {},
@@ -416,9 +416,10 @@
     "NuShell": {},
     "Ocaml": {},
     "Opa": {},
+    "PHP": {},
+    "PRQL": {},
     "Pascal": {},
     "Perl": {},
-    "PHP": {},
     "Picat": {},
     "Plorth": {},
     "Poetry": {},
@@ -429,29 +430,31 @@
         ".pro",
         ".P"
       ],
+      "influenced_by": "Planner",
       "origin_year": 1972,
-      "type_system": "untyped",
       "paradigm": "logic",
-      "influenced_by": "Planner"
+      "type_system": "untyped"
     },
-    "PRQL": {},
     "PureScript": {},
     "Python": {},
     "ReScript": {},
     "Roc": {},
     "Ruby": {},
     "Rust": {},
+    "SIMSCRIPT": {
+      "origin_year": 1962,
+      "paradigm": "natural_language"
+    },
     "Scala": {},
     "ScalaJS": {},
     "Scheme": {},
     "Scopes": {},
     "Simuala": {
-      "origin_year": 1962,
-      "type_system": [
-        "static",
-        "nominative"
+      "influenced_by": [
+        "ALGOL",
+        "SIMSCRIPT"
       ],
-      "scope": "lexical",
+      "origin_year": 1962,
       "paradigm": [
         "multi",
         "procedural",
@@ -459,24 +462,13 @@
         "structured",
         "object_oriented"
       ],
-      "influenced_by": [
-        "ALGOL",
-        "SIMSCRIPT"
+      "scope": "lexical",
+      "type_system": [
+        "static",
+        "nominative"
       ]
     },
-    "SIMSCRIPT": {
-      "origin_year": 1962,
-      "paradigm": "natural_language"
-    },
     "Smalltalk": {
-      "origin_year": 1972,
-      "type_system": [
-        "objects",
-        "strong",
-        "dynamic"
-      ],
-      "scope": "lexical",
-      "paradigm": "object_oriented",
       "influenced_by": [
         "Lisp",
         "Simula",
@@ -487,6 +479,14 @@
         "Sketchpad",
         "ARPAnet",
         "Burroughs B5000"
+      ],
+      "origin_year": 1972,
+      "paradigm": "object_oriented",
+      "scope": "lexical",
+      "type_system": [
+        "objects",
+        "strong",
+        "dynamic"
       ]
     },
     "Squiggle": {},

@@ -2,113 +2,10 @@
   "display_name": "Web Browsers",
   "things": {
     "Arc": {
-      "website": "https://arc.net",
-      "supported_os": "MacOS"
-    },
-    "SigmaOS": {
-      "website": "https://sigmaos.com",
-      "supported_os": "MacOS"
-    },
-    "Stack": {
-      "website": "https://stackbrowser.com",
-      "supported_os": [
-        "MacOS",
-        "Windows"
-      ]
-    },
-    "Sidekick": {
-      "website": "https://www.meetsidekick.com",
-      "supported_os": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ]
-    },
-    "Wavebox": {
-      "website": "https://wavebox.io",
-      "supported_os": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ]
-    },
-    "Shift": {
-      "website": "https://tryshift.com",
-      "supported_os": [
-        "MacOS",
-        "Windows"
-      ]
-    },
-    "Station": {
-      "website": "https://getstation.com",
-      "supported_os": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ]
-    },
-    "Orion": {
-      "website": "https://browser.kagi.com",
-      "supported_os": [
-        "MacOS",
-        "iOS",
-        "iPadOS"
-      ]
-    },
-    "Chrome": {
-      "website": "https://www.google.com/chrome/",
-      "supported_os": [
-        "MacOS",
-        "Windows",
-        "Linux",
-        "Android",
-        "iOS",
-        "iPadOS"
-      ]
-    },
-    "Firefox": {
-      "website": "https://www.mozilla.org/en-US/firefox/new/",
-      "supported_os": [
-        "MacOS",
-        "Windows",
-        "Linux",
-        "Android",
-        "iOS",
-        "iPadOS"
-      ]
-    },
-    "Opera": {
-      "website": "https://www.opera.com",
-      "supported_os": [
-        "MacOS",
-        "Windows",
-        "Linux",
-        "Android",
-        "iOS",
-        "iPadOS"
-      ]
-    },
-    "Edge": {
-      "website": "https://www.microsoft.com/en-us/edge",
-      "supported_os": [
-        "MacOS",
-        "Windows",
-        "Linux",
-        "Android",
-        "iOS",
-        "iPadOS"
-      ]
-    },
-    "Safari": {
-      "website": "https://www.apple.com/safari/",
-      "supported_os": [
-        "MacOS",
-        "iOS",
-        "iPadOS"
-      ]
+      "supported_os": "MacOS",
+      "website": "https://arc.net"
     },
     "Brave": {
-      "website": "https://brave.com",
       "supported_os": [
         "MacOS",
         "Windows",
@@ -116,7 +13,110 @@
         "Android",
         "iOS",
         "iPadOS"
-      ]
+      ],
+      "website": "https://brave.com"
+    },
+    "Chrome": {
+      "supported_os": [
+        "MacOS",
+        "Windows",
+        "Linux",
+        "Android",
+        "iOS",
+        "iPadOS"
+      ],
+      "website": "https://www.google.com/chrome/"
+    },
+    "Edge": {
+      "supported_os": [
+        "MacOS",
+        "Windows",
+        "Linux",
+        "Android",
+        "iOS",
+        "iPadOS"
+      ],
+      "website": "https://www.microsoft.com/en-us/edge"
+    },
+    "Firefox": {
+      "supported_os": [
+        "MacOS",
+        "Windows",
+        "Linux",
+        "Android",
+        "iOS",
+        "iPadOS"
+      ],
+      "website": "https://www.mozilla.org/en-US/firefox/new/"
+    },
+    "Opera": {
+      "supported_os": [
+        "MacOS",
+        "Windows",
+        "Linux",
+        "Android",
+        "iOS",
+        "iPadOS"
+      ],
+      "website": "https://www.opera.com"
+    },
+    "Orion": {
+      "supported_os": [
+        "MacOS",
+        "iOS",
+        "iPadOS"
+      ],
+      "website": "https://browser.kagi.com"
+    },
+    "Safari": {
+      "supported_os": [
+        "MacOS",
+        "iOS",
+        "iPadOS"
+      ],
+      "website": "https://www.apple.com/safari/"
+    },
+    "Shift": {
+      "supported_os": [
+        "MacOS",
+        "Windows"
+      ],
+      "website": "https://tryshift.com"
+    },
+    "Sidekick": {
+      "supported_os": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "website": "https://www.meetsidekick.com"
+    },
+    "SigmaOS": {
+      "supported_os": "MacOS",
+      "website": "https://sigmaos.com"
+    },
+    "Stack": {
+      "supported_os": [
+        "MacOS",
+        "Windows"
+      ],
+      "website": "https://stackbrowser.com"
+    },
+    "Station": {
+      "supported_os": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "website": "https://getstation.com"
+    },
+    "Wavebox": {
+      "supported_os": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "website": "https://wavebox.io"
     }
   }
 }
